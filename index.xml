@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Fernando Stipanicic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 10 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_huf498f13961cc862fc676df24969d2603_1118_512x512_fill_lanczos_center_3.png</url>
       <title>Fernando Stipanicic</title>
@@ -14,9 +14,25 @@
     
     <item>
       <title>The Creation and Diffusion of Knowledge: Evidence from the Jet Age</title>
-      <link>/publication/working_papers/</link>
-      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/working_papers/</guid>
+      <link>/publication/working_papers/jets_innovation/</link>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/working_papers/jets_innovation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-speed Railways and the Geography of Innovation: Evidence from France</title>
+      <link>/publication/working_papers/hsr_innovation/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/working_papers/hsr_innovation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Restricted-Access Data in Economics: Adoption, Diffusion, and Impact of U.S. Census Bureau&#39;s Microdata</title>
+      <link>/publication/working_papers/hdsr_census_data/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/working_papers/hdsr_census_data/</guid>
       <description></description>
     </item>
     

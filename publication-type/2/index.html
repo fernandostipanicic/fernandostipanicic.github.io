@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="Fernando Stipanicic is a PhD Candidate in Economics at Toulouse School of Economics">
+  <meta name="description" content="Fernando Stipanicic is Assistant Professor at University of Oslo">
 
   
   <link rel="alternate" hreflang="en-us" href="/publication-type/2/">
@@ -219,19 +219,55 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PCJB89LL9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-PCJB89LL9M', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
   
   
 
-  
-  <link rel="alternate" href="/publication-type/2/index.xml" type="application/rss+xml" title="Fernando Stipanicic">
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_huf498f13961cc862fc676df24969d2603_967_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_huf498f13961cc862fc676df24969d2603_967_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_huf498f13961cc862fc676df24969d2603_1118_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_huf498f13961cc862fc676df24969d2603_1118_192x192_fill_lanczos_center_3.png">
 
   <link rel="canonical" href="/publication-type/2/">
 
@@ -254,10 +290,10 @@
   <meta property="og:site_name" content="Fernando Stipanicic">
   <meta property="og:url" content="/publication-type/2/">
   <meta property="og:title" content="2 | Fernando Stipanicic">
-  <meta property="og:description" content="Fernando Stipanicic is a PhD Candidate in Economics at Toulouse School of Economics"><meta property="og:image" content="/images/icon_huf498f13961cc862fc676df24969d2603_967_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_huf498f13961cc862fc676df24969d2603_967_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Fernando Stipanicic is Assistant Professor at University of Oslo"><meta property="og:image" content="/images/icon_huf498f13961cc862fc676df24969d2603_1118_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="/images/icon_huf498f13961cc862fc676df24969d2603_1118_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2015-09-01T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2025-08-20T00:00:00&#43;00:00">
   
 
   
@@ -401,7 +437,65 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#work-in-progress"><span>Working in progress</span></a>
+          <a class="nav-link " href="/#working_papers"><span>Working papers</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#work-in-progress"><span>Work in progress</span></a>
         </li>
 
         
@@ -460,6 +554,35 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#academic-visits"><span>Academic Visits</span></a>
         </li>
 
         
@@ -586,10 +709,10 @@
     
     
     <div>
-      <h2><a href="/publication/published-paper/" >An example journal article</a></h2>
+      <h2><a href="/publication/working_papers/hdsr_census_data/" >Restricted-Access Data in Economics: Adoption, Diffusion, and Impact of U.S. Census Bureau&#39;s Microdata</a></h2>
       <div class="article-style">
         
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+          Descriptive analysis of the use of confidential U.S. Census data in Economics research.
         
       </div>
     </div>
@@ -701,7 +824,7 @@
     
     
     
-    <script src="/js/academic.min.72756512af279b10e3e4b09540ed6e9f.js"></script>
+    <script src="/js/academic.min.0d53a7f39b7d6770128a54b39dad2f22.js"></script>
 
     
 
